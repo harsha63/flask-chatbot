@@ -12,3 +12,11 @@ A simple web-based chatbot built using **Flask**.
 
 ---
 
+Steps to run
+1. Setup Open AI API key => https://platform.openai.com/account/api-keys
+2. Set virtual environment
+    ```
+    python3 -m venv venv
+    source venv/bin/activate
+    pip install -r requirements.txt
+    python app.py
